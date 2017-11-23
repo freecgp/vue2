@@ -3,15 +3,18 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import iView from 'iview';
 //import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 //import Home from './components/Home'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import store from './store'
+import 'iview/dist/styles/iview.css';
 
 //Vue.use(VueRouter)
 Vue.use(VueResource)
+Vue.use(iView)
 
 // const routes = [{
 //   path : '/',
